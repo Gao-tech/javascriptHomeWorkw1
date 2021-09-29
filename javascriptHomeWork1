@@ -1,0 +1,105 @@
+//1.
+console.log('Olá mundo') // portuguiska
+console.log('Hola Mundo' )  // sponska
+console.log('Hej världen')  // svenska
+
+//2.
+console.log("I'm awesome")
+
+//3
+let x
+console.log("the valueof my variable x will be: whateverYouThinkItwillLog")
+console.log(x)
+x=5
+console.log('the initialized value of x is an integer')
+
+//4.
+let y = 'Try to feel good!'
+console.log(`The value of my string will be "${y}"` )
+y = 'Have a nice day!'
+console.log(y)
+
+//5.
+let z = 7.25
+console.log(z)
+let a = Math.round(z)
+console.log(a);
+
+if(a > z){
+  biggernum = a
+  console.log(`The greater number is a: ${a}` )
+}else{
+  console.log(`The greater number is a: ${z}`)
+}
+
+//6.
+const scores = [78, 89, 45, 90,]
+console.log('The array will be integers')
+console.log(scores)
+const animals = ['dog', 'cat']
+console.log(animals)
+console.log(`My favourite animals are ${animals[0]} and ${animals[1]}`)
+const daanList = animals.concat('baby pig')
+console.log(daanList)
+
+//7
+
+let myString = 'this is a test'
+console.log(myString)
+console.log(myString.length)
+
+//8
+
+let m = 5;
+let n = 'test string';
+let s = 8.5;
+let f = true
+
+console.log(m)
+console.log(n)
+console.log(s)
+console.log(f)
+
+mType = typeof(m)
+nType = typeof(n)
+sType = typeof(s)
+fType = typeof(f)
+
+
+if(mType = nType){
+  console.log("SAME TYPE")
+}else{
+  console.log("NOT THE SAME")
+}
+
+//9.
+let nn = 7;
+nn = nn % 3;
+console.log(nn)
+let mm = 29;
+mm = mm % 29;
+console.log(mm)
+let pp = -57.3;
+pp %= 3
+console.log(pp)
+
+//10.
+
+let testArr = ['dog', '2', ' true'];
+console.log(testArr)
+
+if(6/0===10/0){
+  console.log("They are equal")
+}else{
+  console.log("They are not equal")
+}
+
+
+
+
+
+
+            
+
+
+
